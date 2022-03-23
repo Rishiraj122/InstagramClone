@@ -1,27 +1,18 @@
 .App {
+  text-align: inherit;
+}
+
+img{
+  width: 20%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h4{
+  text-align: center;
 }
 
 .App-link {
@@ -35,4 +26,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+span{
+  padding-left: 3%;
+}
+
+.border{
+  border: 2px solid black;
+  width: 50%;
+  margin: 0 auto;
+  padding: 2%
 }
